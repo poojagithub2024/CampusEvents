@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7ff;
+}
+
+header {
+    background-color: white;
+    padding: 20px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight:bold;
+    color:#000000
+}
+.nav-links{
+    display:flex;
+    gap:25px;
+}
+.nav-links a{
+    text-decoration: none;
+    color:#333333;
+    font-size:14px;
+}
+.nav-links a:hover{
+    color:#2563eb;
+}
+
+
+.events {
+    padding: 30px 40px;
+}
+
+.events h2 {
+    color: #25345c;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.event-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.event-card {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.event-header {
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.tech {
+    background-color: #3569e8;
+}
+
+.culture {
+    background-color: #c43d91;
+}
+
+.sports {
+    background-color: #20a887;
+}
+
+.event-content {
+    padding: 15px;
+}
+
+.event-content h3 {
+    color: #25345c;
+    font-size: 16px;
+}
+
+.event-content p {
+    color: #666666;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.event-content button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #25345c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.registration {
+    background-color: white;
+    padding: 25px;
+    margin: 30px 40px;
+    border-radius: 8px;
+}
+
+.registration h2 {
+    color: #25345c;
+    margin-bottom: 5px;
+}
+
+.registration p {
+    color: #666666;
+    font-size: 14px;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 450px;
+}
+
+.registration label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.registration input,
+.registration select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.registration button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
