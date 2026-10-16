@@ -1,3 +1,5 @@
+//Day2 js task3
+
 let book = {
     title: "JavaScript Basics",
     author: "John",
